@@ -1716,7 +1716,7 @@ def meyexudi():
       os.system('espeak -a 300 " Hello,   Sir,  Namaste,   I,   Am, The,   Robot,   of,   MR,   RJ RAJU RAZZ,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20RJ Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https:/wa.me/+919954282827),approval()      
+      tks = ('Hello%20RJ,Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https:/wa.me/+919954282827),approval()      
       time.sleep(1)
       meyexudi()
   except:
