@@ -1722,7 +1722,7 @@ def meyexudi():
   except:
     sys.exit()
 meyexudi()
-#os.system("python Hacked.py")
+#os.system("python ALONE.py")
 def naima():
 	print('-------------------')
 print(logo)
